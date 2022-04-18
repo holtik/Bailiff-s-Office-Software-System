@@ -1,0 +1,8 @@
+Software Functional Requirements
+1.	Software will have a different levels of access. The owner of the firm will have the highest level of access, followed by a fellow bailiff, lawyers, and accountant who has the lowest access level.
+2.	Every member of the firm will login into the system by a username/ID and a password.
+3.	Owner of the firm can manage other members, register new members working for the firm or delete users who do not work in the firm anymore.
+4.	Owner can add basic details such as: first name, last name, date of birth, position.
+5.	All employees of the firm, including the owner can upload documents, files of different kind, etc. 
+6.	Bailiffs and lawyers can change the direction where the files and documentation are stored.
+7.	Owner of firm can choose priority over different cases and upload the documentation provided by court in the main page for all members of the firm to see.
