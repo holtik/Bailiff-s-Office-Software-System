@@ -1,3 +1,0 @@
-# Group-9-Project
-Work in progress...
-Test
