@@ -1,0 +1,43 @@
+Case 1. User successful login attempt
+    A user of the firm enters the correct credentials for username/email and password.
+    The user is logged in and redirected to the main screen.
+Case 2. User failed login attempt
+    User enters the incorrect credentials for username/email and password.
+    User cannot log in and is prevented from moving further.
+    User will be displayed a message where they are required to enter the correct credentials.
+Case 3. Bailiff posts new case
+    Bailiff logs in to the web app.
+    Bailiff is redirected to the main page-
+    User clicks on the “Add New Case” button.
+    Necessary documentation and information are added.
+    The case is posted on the main page, where other members can access its information.
+Case 4. Firm members view new case
+    User logs in to the web app.
+    User is redirected to the main page.
+    User clicks on the new case that is added to the main page.
+    User can access the information posted by the bailiff.
+    Sorting documents
+Case 5. User logs in to the web app.
+    User goes to the “Cases” button, where they are redirected to the page where cases are stored.
+    User selects between two categories, ”Ongoing Cases” and “Closed Cases”.
+    User chooses the sort option to sort documents by specified criteria.
+Case 6. Updating Case status
+    User logs in to the web app.
+    User goes to the “Cases button, where they are redirected to the page where cases are stored.
+    User selects between two categories, “Ongoing Cases” and “Closed Cases”.
+    User changes the status of the case from “Ongoing” to “Closed”, and vice-versa.
+Case 7. Accountant generates revenue and loss statement
+    Accountant logs in to the web app.
+    User goes to the “Cases” button, where they are redirected to the page where cases are stored.
+    User selects the “Closed Cases” category.
+    User gets a list of all fees recorded for closed cases with “Get List”.
+    User uploads an income statement sheet, for the admin to see.
+Case 8. User logout
+    User is logged in.
+    User clicks on logout button.
+    User is successfully redirected to login screen.
+Case 9. User failed logout attempt
+    User is logged in.
+    User click on logout button.
+    User in not redirected to login screen.
+    User is displayed message that shows “Error! Something went wrong!”.
