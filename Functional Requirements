@@ -6,3 +6,13 @@ Software Functional Requirements
 5.	All employees of the firm, including the owner can upload documents, files of different kind, etc. 
 6.	Bailiffs and lawyers can change the direction where the files and documentation are stored.
 7.	Owner of firm can choose priority over different cases and upload the documentation provided by court in the main page for all members of the firm to see.
+8.  Admin can add new cases in Main page.
+9.  Admin can update information regarding case.
+10. Bailiff can update information regarding case.
+11. Lawyers can update information regarding case.
+12. Admin can change status of case from "Ongoing" to "Closed".
+13. Bailiff can change status of case from "Ongoing" to "Closed".
+14. Lawyers can change status of case from "Ongoing" to "Closed".
+11. Accountant will be able to get a report of all cases fees by using "Get List".
+12. Accountant can upload a revenue and loss statement through "Upload Statement".
+13. Admin can see statement uploaded by accountant.
