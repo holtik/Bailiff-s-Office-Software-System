@@ -1,17 +1,17 @@
 Software Functional Requirements
-1.	Software will have a different levels of access. The owner of the firm will have the highest level of access, followed by a fellow bailiff, lawyers, and accountant who has the lowest access level.
-2.	Every member of the firm will login into the system by a username/ID and a password.
-3.	Owner of the firm can manage other members, register new members working for the firm or delete users who do not work in the firm anymore.
-4.	Owner can add basic details such as: first name, last name, date of birth, position.
+1.  Software will have a different levels of access. The owner of the firm will have the highest level of access, followed by a fellow bailiff, lawyers, and accountant who has the lowest access level.
+2.  Every member of the firm will login into the system by a username/ID and a password.
+3.  Owner of the firm can manage other members, register new members working for the firm or delete users who do not work in the firm anymore.
+4.  Owner can add basic details such as: first name, last name, date of birth, position.
 5.  Admin provides firm members with a temporary password, which members can change.
 6.  Admin can change password of their account at "Account" tab.
 7.  Bailiff can change existing password at "Account" tab.
 8.  Lawyers can change existing password at "Account" tab.
-9.	All employees of the firm, including the owner can upload documents, files of different kind, etc. 
-10.	Bailiffs and lawyers can change the direction where the files and documentation are stored.
-11.	Owner of firm can choose priority over different cases and upload the documentation provided by court in the main page for all members of the firm to see.
-12.  Admin can add new cases in Main page.
-13.  Admin can update information regarding case.
+9.  All employees of the firm, including the owner can upload documents, files of different kind, etc. 
+10. Bailiffs and lawyers can change the direction where the files and documentation are stored.
+11. Owner of firm can choose priority over different cases and upload the documentation provided by court in the main page for all members of the firm to see.
+12. Admin can add new cases in Main page.
+13. Admin can update information regarding case.
 14. Bailiff can update information regarding case.
 15. Lawyers can update information regarding case.
 16. Admin can change status of case from "Ongoing" to "Closed".
@@ -21,3 +21,6 @@ Software Functional Requirements
 20. Accountant will have the option to export data from report in Excel file.
 21. Accountant can upload a revenue and loss statement through "Upload Statement".
 22. Admin can see statement uploaded by accountant.
+23. User activity is posted in a log in the main page.
+24. Admin can be redirected to case which has been changed.
+25. Admin can revert changes made to case if needed.
