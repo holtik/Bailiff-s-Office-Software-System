@@ -24,3 +24,11 @@ Software Functional Requirements
 23. User activity is posted in a log in the main page.
 24. Admin can be redirected to case which has been changed.
 25. Admin can revert changes made to case if needed.
+26. Admin can add new clients in the "Clients" tab.
+27. Admin can modify client details and add/remove cases in "Clients" tab.
+28. Each client has a unique client id number.
+29. Bailiff can access "Client" tab and modify client details.
+30. Lawyer can access "Client" tab and modify cient details.
+31. Bailiff/Lawyer can add/remove cases from specific clients.
+32. Admin can add/remove cases from specific clients.
+33. Admin can add/remove clients from "Clients" tab.
