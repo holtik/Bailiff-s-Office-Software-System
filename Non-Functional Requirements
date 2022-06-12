@@ -4,57 +4,61 @@ Non-Functional Requirements
 Product Requirements
 
 1. User interface
-    - As a web-based app, it must support all modern browsers such as Google Chrome, Mozilla, Microsoft Edge etc.
-    - Interface must be user-friendly and easy to navigate, even for users who may not be tech-savvy.
-    - Login page requiring the user to enter their username/ID and password.
-    - Main page that shows a dashboard and an overview of recent activity.
-    - Management page, where users that have the permission can manage other lower-ranking users.
-    - Cases page, which shows a list of cases that can be sorted (e.g., by deadline, or whether they are finished or not.) Also, cases can be favorited for easier access or given higher priority.
+    1.1. As a web-based app, it must support all modern browsers such as Google Chrome, Mozilla, Microsoft Edge etc.
+    1.2. Interface must be user-friendly and easy to navigate, even for users who may not be tech-savvy.
+    1.3. Login page requiring the user to enter their username/ID and password.
+    1.4. Main page that shows a dashboard and an overview of recent activity.
+    1.5. Management page, where users that have the permission can manage other lower-ranking users.
+    1.6. Cases page, which shows a list of cases that can be sorted (e.g., by deadline, or whether they are finished or not.) Also, cases can be favorited for easier access or given higher priority.
 
 2. Usability
-    - Web app must be able to be accessed by users with only an internet connection.
-    - Must be easy to use, navigate, and easy to remember even for users not familiar with similar apps.
-    - Must allow for easy and quick completion of tasks by the users.
+    2.1. Web app must be able to be accessed by users with only an internet connection.
+    2.2. Must be easy to use, navigate, and easy to remember even for users not familiar with similar apps.
+    2.3.  Must allow for easy and quick completion of tasks by the users.
 
 3. Efficiency:
-    - Performance
-        - Pages must load fast (although it may depend on users’ internet connection, it would be preferable to have a loading time of less than 2 seconds).
-        - Requires a powerful server machine with good internet connection.
+    3.1 Performance
+        3.1.1 Pages must load fast (although it may depend on users’ internet connection, it would be preferable to have a loading time of less than 2 seconds).
+        3.1.2 Requires a powerful server machine with good internet connection.
 
-    - Space
+    3.2 Space
         - Must handle at least up to 30 users simultaneously (although the firm has less members than that, it must be able to handle more users in case the firm decides to expand/hire new employees).
         - Must use less than 1-2 GB RAM.
 
 4. Dependability:
-    - The app must have a low failure rate (less than 2%).
-    - In case of a crash, it must display a standard error message to the user.
-    - Availability
-        - The web-app must be accessible by users at all times (with the exception of during maintenance).
-        - Maintenance must take a short time (a maximum of several hours).
+    4.1 The app must have a low failure rate (less than 2%).
+    4.2 In case of a crash, it must display a standard error message to the user.
+    4.3 Availability
+        4.3.1 The web-app must be accessible by users at all times (with the exception of during maintenance).
+        4.3.2 Maintenance must take a short time (a maximum of several hours).
 
 5. Security
-    - Crucial information such as user data must be protected form any potential malware or cyber-attacks.
+    5.1 Crucial information such as user data must be protected form any potential malware or cyber-attacks.
 
 
 Organizational Requirements:
 
 6. Environmental
-    - Server machine that will be stored inside the bailiff’s office.
+    6.1 Server machine that will be stored inside the bailiff’s office.
 
 7. Operational
-    - Owner – can manage other members, change priority of cases.
-    - Employees – can upload documents, files, etc.
-    - Higher ranks will also have all the access that lower ranks have.
+    7.1. Owner – can manage other members, change priority of cases.
+    7.2. Employees – can upload documents, files, etc.
+    7.3. Higher ranks will also have all the access that lower ranks have.
 
 8. Development
-    - Front-end: HyperText Markup Language, Cascading Style Sheet, JavaScript
-    - Back-end: PHP, MySQL database
+    8.1. Front-end: HyperText Markup Language, Cascading Style Sheet, JavaScript
+    8.2. Back-end: PHP, MySQL database
 
 
 External Requirements:
 
 9. Regulatory
+    9.1 Information collection and usage must be done fully in compliance with Albanian laws for protection of personal data.
 
 10. Ethical
-
+    10.1 Only the necessary information will be collected from external entities such as clients
+    10.2 The office may only share such information if requiret do do so by a court of law or Albanian legislation 
+    
 11. Legislative
+    11.1 Based on Law No.9887, dated 10.03.2008, “On the Protection of Personal Data”, all personal user data is to remain private, and sensitive data such as passwords are to be secured via encryption.
