@@ -1,7 +1,9 @@
 Non-Functional Requirements
 
 
-- User interface
+Product Requirements
+
+1. User interface
     - As a web-based app, it must support all modern browsers such as Google Chrome, Mozilla, Microsoft Edge etc.
     - Interface must be user-friendly and easy to navigate, even for users who may not be tech-savvy.
     - Login page requiring the user to enter their username/ID and password.
@@ -9,38 +11,50 @@ Non-Functional Requirements
     - Management page, where users that have the permission can manage other lower-ranking users.
     - Cases page, which shows a list of cases that can be sorted (e.g., by deadline, or whether they are finished or not.) Also, cases can be favorited for easier access or given higher priority.
 
-- Usability
+2. Usability
     - Web app must be able to be accessed by users with only an internet connection.
     - Must be easy to use, navigate, and easy to remember even for users not familiar with similar apps.
     - Must allow for easy and quick completion of tasks by the users.
 
-- Performance
-    - Pages must load fast (although it may depend on users’ internet connection, it would be preferable to have a loading time of less than 2 seconds).
-    - Requires a powerful server machine with good internet connection.
+3. Efficiency:
+    - Performance
+        - Pages must load fast (although it may depend on users’ internet connection, it would be preferable to have a loading time of less than 2 seconds).
+        - Requires a powerful server machine with good internet connection.
 
-- Space
-    - Must handle at least up to 30 users simultaneously (although the firm has less members than that, it must be able to handle more users in case the firm decides to expand/hire new employees).
-    - Must use less than 1-2 GB RAM.
+    - Space
+        - Must handle at least up to 30 users simultaneously (although the firm has less members than that, it must be able to handle more users in case the firm decides to expand/hire new employees).
+        - Must use less than 1-2 GB RAM.
 
-- Reliability
+4. Dependability:
     - The app must have a low failure rate (less than 2%).
     - In case of a crash, it must display a standard error message to the user.
+    - Availability
+        - The web-app must be accessible by users at all times (with the exception of during maintenance).
+        - Maintenance must take a short time (a maximum of several hours).
 
-- Availability
-    - The web-app must be accessible by users at all times (with the exception of during maintenance).
-    - Maintenance must take a short time (a maximum of several hours).
-
-- Security
+5. Security
     - Crucial information such as user data must be protected form any potential malware or cyber-attacks.
 
-- Environmental
+
+Organizational Requirements:
+
+6. Environmental
     - Server machine that will be stored inside the bailiff’s office.
 
-- Operational
+7. Operational
     - Owner – can manage other members, change priority of cases.
     - Employees – can upload documents, files, etc.
     - Higher ranks will also have all the access that lower ranks have.
 
-- Development
+8. Development
     - Front-end: HyperText Markup Language, Cascading Style Sheet, JavaScript
     - Back-end: PHP, MySQL database
+
+
+External Requirements:
+
+9. Regulatory
+
+10. Ethical
+
+11. Legislative
