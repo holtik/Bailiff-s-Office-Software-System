@@ -1,0 +1,7 @@
+2.5 Dependencies 
+•	The admin account cannot change the priority over existing cases if there are less than 2 ongoing cases
+•	The admin account cannot view revenue and loss statement if it is not uploaded by the accountant
+•	The admin account cannot manage members if there are no registered members (i.e., the list of members is empty)
+•	Non-admin employee accounts cannot login to the system until given a password by the admin
+•	Accountant cannot export data if a financial report has not been made
+•	Accountant cannot make a financial report and revenue/loss statement if no case fees have been received
