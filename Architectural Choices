@@ -1,0 +1,8 @@
+Architectural Choices
+As the Bailiff’s Office Software System will be a web application, we decided the most appropriate architectural pattern would be the client-server pattern. 
+In this pattern, there are two main components: the client, which is the service requester, and the server, which is the service provider. They communicate over the internet, on separate hardware. There is only one server, but many clients. The server is physically located in the Bailiff’s office, while the client refers to the web browser which the employees will use to access the web app. 
+The server perpetually listens for requests from the clients. When a request is received, the server processes it, and sends a response to the client. The client initiates interactions with the server to generate the services needed. Both components are linked by request/reply connectors. 
+A major advantage of this pattern is the central computing of data. All the files are stored in a central location (the server), therefore the data is centrally controlled. 
+
+The client-side programming will be done using HyperText Markup Language (HTML). Additionally, Cascading Style Sheets (CSS) will be used to make the web app’s visual design more modern and aesthetically pleasing. JavaScript and the jQuery library will be used to make the web app more interactive for the users.
+On the server side, MySQL database will be used to store data. PHP programming will be used for integrating the web app with the database.
